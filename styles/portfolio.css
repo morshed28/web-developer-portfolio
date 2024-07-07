@@ -7,9 +7,11 @@
 }
 
 /* shared style */
+
 .text-primary{
     color: #FD6E0A;
 }
+
 .dark-2{
     color: #474747;
 }
@@ -21,7 +23,15 @@
    color: white;
    padding: 18px 35px;
    border-radius: 5px;
+   border:none;
 
+}
+
+/* header */
+.header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png') ;
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
 }
 
 /* Nav styles */
@@ -50,4 +60,33 @@ nav ul li{
 nav li a{
     text-decoration: none;
     font-size: 20px;
+}
+
+/*banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+
+.banner-content{
+    max-width: 585px;
+}
+
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+
+.banner-description{
+    font-size: 18px;
+}
+
+.banner-profile-picture{
+    width: 580px;
 }
